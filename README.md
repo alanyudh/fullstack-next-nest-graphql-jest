@@ -51,18 +51,24 @@ yarn
 
 ```
 # run web & server
-yarn start
+yarn start:prod
 
 # run web only
 cd packages/web
-yarn start
+yarn start:prod
 
 # run server only
 cd packages/server
-yarn start
+yarn start:prod
+
+# to run on development mode, replace `yarn start:prod` to `yarn start:dev`
 ```
 
-- to run on development mode, replace `yarn start` to `yarn start:dev`
+once started, applications can be accessed at :
+
+- web : http://localhost:3000
+- server: http://localhost:4000
+- graphql playground: http://localhost:4000/graphql
 
 ### Test
 
