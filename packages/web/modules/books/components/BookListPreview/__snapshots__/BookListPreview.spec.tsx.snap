@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookListPreview matches snapshot 1`] = `
+<DocumentFragment>
+  <a
+    data-testid="book-list-anchor"
+    href="/books/1"
+  >
+    <div
+      class="ant-card ant-card-bordered"
+    >
+      <div
+        class="ant-card-head"
+      >
+        <div
+          class="ant-card-head-wrapper"
+        >
+          <div
+            class="ant-card-head-title"
+          >
+            title1
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-card-body"
+      >
+        description1
+      </div>
+    </div>
+  </a>
+</DocumentFragment>
+`;

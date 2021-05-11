@@ -1,0 +1,25 @@
+{
+  "name": "fullstack-next-nest-graphql-jest",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "start:dev": "lerna run start:dev --parallel",
+    "start:prod": "lerna run start:prod --parallel",
+    "start": "yarn test-all && yarn build && yarn start:prod",
+    "build": "lerna run build --stream",
+    "type-check": "lerna run type-check --stream",
+    "test": "lerna run test --stream",
+    "test:watch": "lerna run test:watch --stream",
+    "test:cov": "lerna run test:cov --stream",
+    "lint": "lerna run lint --stream",
+    "test-all": "lerna run test-all --parallel",
+    "diff": "lerna diff"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

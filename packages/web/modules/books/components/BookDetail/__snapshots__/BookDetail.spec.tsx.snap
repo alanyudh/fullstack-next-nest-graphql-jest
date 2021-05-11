@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookDetail matches snapshot 1`] = `
+<DocumentFragment>
+  <article
+    class="ant-typography"
+  >
+    <h1
+      class="ant-typography"
+      data-testid="book-detail-title"
+    >
+      title
+    </h1>
+    <div
+      class="ant-typography"
+      data-testid="book-detail-desc"
+    >
+      description
+    </div>
+    <div
+      class="ant-typography"
+    >
+      <span
+        class="ant-typography ant-typography-secondary"
+        data-testid="book-detail-year"
+      >
+        Published on 2009
+      </span>
+    </div>
+    <div
+      class="ant-divider ant-divider-horizontal"
+      role="separator"
+    />
+    <a
+      class="ant-typography"
+      href="/"
+    >
+      back
+    </a>
+  </article>
+</DocumentFragment>
+`;
